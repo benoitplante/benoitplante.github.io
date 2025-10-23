@@ -1,6 +1,6 @@
 ---
 title: ""
-description-meta: "Réflexions, outils et science à l’interface entre la psychologie et l’IA"
+description-meta: "Benoit Plante | Portfolio de projets et outils"
 page-navigation: false
 toc: false
 page-layout: full
@@ -32,15 +32,9 @@ listing:
 
 :::: {style="flex: 1 1 300px; min-width: 280px;"}
 ::: {.hero-description style="text-align: left;"}
-L’intelligence artificielle occupe une place de plus en plus centrale dans ma vie professionnelle. Je l’utilise autant comme outil de recherche que comme sujet d’exploration, et ce blogue en est le reflet. Pour moi, l’IA n’est pas seulement une technologie : c’est une manière de repenser nos façons de comprendre, d’analyser et d’agir — en psychologie comme ailleurs.
 
-Ce site, c’est un peu mon laboratoire ouvert. J’y partage ce que je lis, ce que je teste, ce que je construis. On y trouve une section [IA & Sciences humaines](/posts), où je vulgarise des recherches récentes sur l’intelligence artificielle appliquée à la psychologie. J’y présente aussi des [projets perso](https://benoitplante.github.io/blogue/projects.html), où je joue avec des données, des idées ou des outils, parfois pour résoudre un vrai problème, parfois juste pour voir jusqu’où je peux aller. Si vous vous intéressez à la recherche, à la techno, à l’humain, ou à ce qui se passe quand les trois se rencontrent, vous êtes au bon endroit.
+Je suis coordonnateur scientifique pour le [GRIN](https://oraprdnt.uqtr.uquebec.ca/portail/gscw031?owa_no_site=864) et le [CEIDEF](https://oraprdnt.uqtr.uquebec.ca/portail/gscw031?owa_no_site=1535&owa_no_fiche=36). Mon rôle consiste à superviser le développement des projets, à coordonner les partenariats et à assurer la mobilisation des connaissances. 
 
-### À propos
-
-Je travaille comme coordonnateur scientifique pour le [Groupe de recherche et d’intervention auprès des enfants vulnérables et négligés (GRIN)](https://oraprdnt.uqtr.uquebec.ca/portail/gscw031?owa_no_site=864), où je supervise le développement des projets, la coordination des partenariats et la mobilisation des connaissances. Je suis aussi doctorant en psychologie à l’[Université du Québec à Trois-Rivières (UQTR)](https://www.uqtr.ca), où mes travaux portent sur les liens entre l’activité physique et le bien-être psychologique.
-
-Je suis également tuteur en psychologie à la [TÉLUQ](https://www.teluq.ca), où j’accompagne des étudiant·e·s dans leurs apprentissages à distance. Enfin, j’agis aussi à titre de conseiller au [SESAME](https://oraprdnt.uqtr.uquebec.ca/portail/gscw031?owa_no_site=401), un service d’accompagnement destiné aux étudiant·e·s parents et à la réussite étudiante à l’UQTR.
 :::
 ::::
 ::::::
@@ -49,9 +43,6 @@ Je suis également tuteur en psychologie à la [TÉLUQ](https://www.teluq.ca), o
 
 ::: {#recent-posts}
 :::
-
-<!-- Formulaire d’abonnement Brevo -->
-<iframe width="540" height="405" scrolling ="no" src="https://sibforms.com/serve/MUIFAJuXpDvH14nAsFXhXmM7v_z4nHcpDJCxRYobbS4dO7G-ovnmEkzoaPhHHEKEPAWRf3EVMvbOumRBiEsM6A50GTewyamCczEPOkwY9jSzdOIhDlnGvyrZJq7_DnhQswAXMCQ4QhEhVv0wZoQ_S-DisWk4a4YeHj6TW3XrELrEZPr4Nv-e2EJt60iSgcFerHiFJzCrIkdm7njy" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
 
 
 

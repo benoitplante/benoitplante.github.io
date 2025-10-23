@@ -1,7 +1,7 @@
 ---
 title: "Outils"
 subtitle: "Outils d'IA pour supporter la recherche en psychologie"
-description-meta: "Outils d'IA pour supporter la recherche en psychologie"
+description-meta: "Outils pour supporter la recherche en psychologie"
 listing: 
   sort: "date desc"
   type: default

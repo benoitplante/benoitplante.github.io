@@ -8,12 +8,12 @@ execute:
 draft-mode: unlinked
 
 # Métadonnées
-description-meta: "Blogue sur les liens entre psychologie et intelligence artificielle"
+description-meta: ""
 author-meta: "Ben Plante"
 
 website:
   title: "Benoit Plante"
-  description: "Réflexions, cas d’usage et outils à l’interface entre IA et psychologie"
+  description: ""
   site-url: "https://benoitplante.github.io"
 
 
@@ -21,21 +21,12 @@ website:
     background: light
 
     left:
-      - text: Accueil
-        href: index.qmd
-      - text: À propos
-        href: about.qmd
-      - text: IA & Sciences humaines
+      - text: Blogue
         href: posts.qmd
-      - text: Outils IA
+      - text: Outils
         href: outils.qmd
       - text: Projets
         href: projects.qmd
-      - text: Publications
-        href: publications.qmd
-      - text: Enseignement
-        href: teaching.qmd
-
 
   page-navigation: true
 
