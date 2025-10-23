@@ -7,8 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ben Plante">
+<meta name="dcterms.date" content="2025-06-10">
+<meta name="description" content="Exploration d’un projet de recherche basé sur la base Famili@, combinant données secondaires, méta-science et intelligence artificielle générative.">
 
-<title>À propos – Benoit Plante</title>
+<title>Nettoyage de la base Famili@ : entre patience, regex et satisfaction scientifique – Benoit Plante</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6957ec2732917c3acd9217c3064faa9e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6957ec2732917c3acd9217c3064faa9e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -117,13 +119,15 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="À propos – Benoit Plante">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Nettoyage de la base Famili@ : entre patience, regex et satisfaction scientifique – Benoit Plante">
 <meta property="og:description" content="Réflexions, cas d’usage et outils à l’interface entre IA et psychologie">
+<meta property="og:image" content="https://benoitplante.github.io/projets/2025-06-10-nettoyage-familia/banner.jpg">
 <meta property="og:site_name" content="Benoit Plante">
-<meta name="twitter:title" content="À propos – Benoit Plante">
+<meta name="twitter:title" content="Nettoyage de la base Famili@ : entre patience, regex et satisfaction scientifique – Benoit Plante">
 <meta name="twitter:description" content="Réflexions, cas d’usage et outils à l’interface entre IA et psychologie">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://benoitplante.github.io/projets/2025-06-10-nettoyage-familia/banner.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -133,7 +137,7 @@ https://badge.dimensions.ai/
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Benoit Plante</span>
     </a>
   </div>
@@ -144,31 +148,31 @@ https://badge.dimensions.ai/
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">IA &amp; Sciences humaines</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./outils.html"> 
+    <a class="nav-link" href="../../outils.html"> 
 <span class="menu-text">Outils IA</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../../projects.html"> 
 <span class="menu-text">Projets</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../../teaching.html"> 
 <span class="menu-text">Enseignement</span></a>
   </li>  
 </ul>
@@ -184,23 +188,45 @@ https://badge.dimensions.ai/
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#le-point-de-départ-une-base-brute-mais-prometteuse" id="toc-le-point-de-départ-une-base-brute-mais-prometteuse" class="nav-link active" data-scroll-target="#le-point-de-départ-une-base-brute-mais-prometteuse">Le point de départ : une base brute, mais prometteuse</a></li>
+  <li><a href="#le-nettoyage-en-9-étapes-et-beaucoup-de-mutate" id="toc-le-nettoyage-en-9-étapes-et-beaucoup-de-mutate" class="nav-link" data-scroll-target="#le-nettoyage-en-9-étapes-et-beaucoup-de-mutate">Le nettoyage en 9 étapes (et beaucoup de <code>mutate()</code>)</a></li>
+  <li><a href="#un-avantaprès-qui-parle" id="toc-un-avantaprès-qui-parle" class="nav-link" data-scroll-target="#un-avantaprès-qui-parle">Un avant/après qui parle</a></li>
+  <li><a href="#ce-que-jai-appris-ou-réappris" id="toc-ce-que-jai-appris-ou-réappris" class="nav-link" data-scroll-target="#ce-que-jai-appris-ou-réappris">Ce que j’ai appris (ou réappris)</a></li>
+  <li><a href="#prochaine-étape" id="toc-prochaine-étape" class="nav-link" data-scroll-target="#prochaine-étape">Prochaine étape</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">À propos</h1>
-</div>
+<h1 class="title">Nettoyage de la base Famili@ : entre patience, regex et satisfaction scientifique</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Méthodologie augmentée par l’IA</div>
+    <div class="quarto-category">Utilisation appliquée de l'IA</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 10, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -210,18 +236,60 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="qui-suis-je" class="level2">
-<h2 class="anchored" data-anchor-id="qui-suis-je">Qui suis-je ?</h2>
-<p>Je m’appelle <strong>Benoit Plante</strong>. Je suis coordonnateur scientifique du <a href="https://oraprdnt.uqtr.uquebec.ca/portail/gscw031?owa_no_site=864">GRIN – Groupe de recherche et d’intervention auprès des enfants vulnérables et négligés</a>, tuteur en psychologie à la <a href="https://www.teluq.ca/">TÉLUQ</a> et doctorant en psychologie à l’Université du Québec à Trois-Rivières.</p>
-<p>Je m’intéresse aux méthodes de recherche en psychologie, à l’analyse de données avec <strong>R</strong>, à la production de rapports reproductibles avec <strong>Quarto</strong>, et à l’intégration de l’intelligence artificielle dans les processus de recherche scientifique. .</p>
-<hr>
+<p>Après l’extraction des données, mon objectif était simple en apparence : transformer la base de données Famili@, extraite via webscraping, en une base de donnée propre, harmonisé et interrogeable. Plus facile à dire qu’à faire. Dans cette deuxième étape du projet, j’ai pris le temps de nettoyer, restructurer et enrichir les données de manière rigoureuse. Et, disons-le franchement, j’ai aussi passé beaucoup (trop ?) de temps à apprivoiser les subtilités des expressions régulières.</p>
+<section id="le-point-de-départ-une-base-brute-mais-prometteuse" class="level2">
+<h2 class="anchored" data-anchor-id="le-point-de-départ-une-base-brute-mais-prometteuse">Le point de départ : une base brute, mais prometteuse</h2>
+<p>La base initiale comportait des champs tels que le titre, les auteurs, les mots-clés, les résumés, les dates, les types de documents, etc. Tous présentés dans une structure JSON insérée dans des balises HTML. Une fois le webscraping complété (voir la première publication pour les détails techniques), je me retrouvais avec un <a href="https://github.com/benoitplante/familia/blob/main/database/df_projets_familia.csv">CSV</a> contenant plusieurs centaines de lignes, mais aussi plusieurs défis : champs non normalisés, balises HTML, redondances et mentions floues.</p>
 </section>
-<section id="pourquoi-ce-blogue" class="level2">
-<h2 class="anchored" data-anchor-id="pourquoi-ce-blogue">Pourquoi ce blogue ?</h2>
-<p>Ce blogue est un <strong>carnet de veille et d’exploration personnelle</strong>.<br>
-J’y partage : - des <strong>résumés d’articles</strong> et des <strong>actualités scientifiques</strong> sur l’usage de l’IA en recherche en sciences humaines (<em>IA &amp; Sciences humaines</em>) ; - des <strong>projets personnels</strong> dans lesquels j’expérimente l’IA pour enrichir la pratique de recherche (<em>Projets</em>).</p>
-<p>Tous les contenus sont créés <strong>en collaboration avec des outils d’IA</strong>, principalement via ChatGPT. Cette co-écriture me permet de structurer mes réflexions, d’automatiser certaines tâches, et de tester concrètement l’usage de l’IA en contexte scientifique. J’indique clairement les apports de l’IA dans chaque publication, dans une optique de transparence.</p>
-<p>Ce site est un espace d’expérimentation. Je publie à mon rythme, sans prétention à l’exhaustivité, avec l’objectif de nourrir une culture de <strong>partage</strong>, de <strong>réflexion critique</strong> et de <strong>dialogue</strong> autour des liens entre psychologie, IA et science ouverte.</p>
+<section id="le-nettoyage-en-9-étapes-et-beaucoup-de-mutate" class="level2">
+<h2 class="anchored" data-anchor-id="le-nettoyage-en-9-étapes-et-beaucoup-de-mutate">Le nettoyage en 9 étapes (et beaucoup de <code>mutate()</code>)</h2>
+<p>Le processus de nettoyage s’est articulé autour de 9 étapes, où chaque transformation avait son rôle dans la simplification, l’harmonisation ou l’enrichissement de la base de données (le code utilisé est disponible <a href="https://github.com/benoitplante/familia/blob/main/Script%20R/nettoyage_familia.R">ici</a>). Pour les curieux de R, chaque transformation repose principalement sur le package <strong><code>dplyr</code></strong> (issu du <strong><code>tidyverse</code></strong>), et quelques ajouts stratégiques comme <strong><code>stringr</code></strong>, <strong><code>naniar</code></strong>, <strong><code>xml2</code></strong> et <strong><code>tidytext</code></strong>.</p>
+<ol type="1">
+<li><p><strong>Nettoyage des mots-clés (<code>stringr</code>)</strong><br>
+J’ai transformé tout en minuscules (<code>str_to_lower()</code>), réduit les espaces superflus (<code>str_replace_all()</code> avec l’expression <code>\s+</code>), et appliqué un petit <code>str_trim()</code> pour retirer les blancs en début/fin de chaîne. Rien de révolutionnaire, mais indispensable pour éviter d’avoir <code>parentalité</code>, <code>Parentalité</code> et <code>PARENTALITÉ</code> comme trois entrées distinctes.</p></li>
+<li><p><strong>Nettoyage des auteurs</strong><br>
+Même recette que pour les mots-clés, avec une touche de <code>str_to_title()</code> pour un affichage propre : chaque nom commence par une majuscule. Pratique pour faciliter une éventuelle agrégation par auteur par la suite.</p></li>
+<li><p><strong>Analyse des données manquantes (<code>naniar</code>)</strong><br>
+Un petit détour par <code>naniar::summarise()</code> pour identifier les champs trop souvent vides. Le numéro de publication (56 % manquant), le volume (53 %), le nom de la revue (36 %) ou les pages (35 %) étaient plus gravement touchés, mais heureusement moins essentiels pour les objectifs de ce projet. Ces constats m’ont permis de faire des choix éclairés sur ce qu’il valait la peine de conserver et ce que je pouvais laisser de côté. Un rappel que parfois, épurer, c’est aussi mieux comprendre.</p></li>
+<li><p><strong>Extraction de l’année</strong><br>
+Le champ <code>date</code> contenait toutes sortes de formats (ex. : “2001”, “vers 1998”, “2001-2003”). Avec une expression régulière <code>str_extract(., "\\d{4}")</code>, j’ai simplement récupéré la première année à 4 chiffres. Cela va introduire un peu d’imprécision dans les dates, mais va simplifier les analyses longitudinales. Puis, j’ai utilisé <code>as.integer()</code> pour que R arrête de croire que c’est une chaîne de caractères.</p></li>
+<li><p><strong>Standardisation des types de documents</strong><br>
+Grâce à <code>case_when()</code>, j’ai recodé tous les libellés de type documentaire (ex. : “Mémoire de maîtrise”, “rapport”, “article”) en quatre grandes familles : <code>"Thèse/Mémoire"</code>, <code>"Rapport"</code>, <code>"Article"</code>, et <code>"Autre"</code>. Cela rend l’analyse bien plus claire.</p></li>
+<li><p><strong>Nettoyage des titres</strong><br>
+Suppression des guillemets et des apostrophes avec <code>str_replace_all("["'’]", "")</code>, conversion en minuscules (<code>str_to_lower()</code>) et retrait des doublons d’espace (<code>str_squish()</code>).</p></li>
+<li><p><strong>Nettoyage du HTML dans les résumés (<code>xml2</code>)</strong><br>
+Les données textes provenant du site contenaient encore des balises HTML. Pour extraire uniquement le texte utile, j’ai encapsulé le contenu dans une balise <code>&lt;body&gt;</code> fictive, puis j’ai utilisé <code>xml2::read_html()</code> et <code>xml2::xml_text()</code> pour récupérer le contenu lisible.</p></li>
+<li><p><strong>Extraction des composantes méthodologiques</strong><br>
+Pour <code>methode_instruments</code>, j’ai extrait ce qui apparaissait entre <code>Instruments :</code> et <code>Type de traitement des données</code>.<br>
+Pour <code>methode_analyse</code>, j’ai capté le contenu suivant <code>Type de traitement des données :</code>.</p></li>
+<li><p><strong>Sélection des colonnes utiles (<code>select()</code>)</strong><br>
+J’ai conservé uniquement les colonnes utiles : titre, auteurs, année, type, mots-clés, instruments et analyse.</p></li>
+</ol>
+</section>
+<section id="un-avantaprès-qui-parle" class="level2">
+<h2 class="anchored" data-anchor-id="un-avantaprès-qui-parle">Un avant/après qui parle</h2>
+<p>Le fichier initial contenait toutes les données extraites du site, sans nettoyage. Le fichier final, <a href="https://github.com/benoitplante/familia/blob/main/database/df_projets_familia_finale.csv"><code>df_projets_familia_finale.csv</code></a>, contient des champs standardisés, prêts à être analysés qualitativement ou quantitativement. Voici les colonnes présentes dans cette version finale :</p>
+<ul>
+<li><p><code>titre_clean</code> : le titre du projet, nettoyé (minuscules, retrait des guillemets et espaces superflus).</p></li>
+<li><p><code>auteurs</code> : les noms des auteurs, harmonisés avec majuscules initiales.</p></li>
+<li><p><code>annee_extrait</code> : l’année extraite automatiquement à partir de la chaîne de date.</p></li>
+<li><p><code>type_doc_std</code> : le type de document recodé (ex. : Thèse/Mémoire, Article, Rapport, Autre).</p></li>
+<li><p><code>mots_cles</code> : les mots-clés nettoyés (espaces, casse).</p></li>
+<li><p><code>methode_instruments</code> : les instruments utilisés dans l’étude, extraits automatiquement (ex. : questionnaires).</p></li>
+<li><p><code>methode_analyse</code> : le type de traitement des données (ex. : analyse statistique).</p></li>
+</ul>
+</section>
+<section id="ce-que-jai-appris-ou-réappris" class="level2">
+<h2 class="anchored" data-anchor-id="ce-que-jai-appris-ou-réappris">Ce que j’ai appris (ou réappris)</h2>
+<ul>
+<li><p><strong>Les expressions régulières sont puissantes… mais sensibles</strong>. Un espace ou une majuscule mal gérée, et tout s’écroule. Et plus encore : selon que l’on utilise un point-virgule, un retour à la ligne ou trois espaces insécables, le comportement peut changer radicalement. Bref, il faut apprendre à parler regex couramment.</p></li>
+<li><p><strong>Toujours valider les extractions sur plusieurs cas</strong>. Une regex qui fonctionne sur 90 % des cas, c’est parfois insuffisant. Les 10 % restants peuvent complètement fausser une analyse — surtout s’ils contiennent des cas atypiques ou significatifs.</p></li>
+<li><p><strong>Conserver une version brute, une version nettoyée, et une trace du code</strong> est crucial pour la reproductibilité. J’ajouterais : versionner les fichiers, commenter son code et garder en tête qu’un jeu de données évolue presque toujours en cours de route.</p></li>
+</ul>
+</section>
+<section id="prochaine-étape" class="level2">
+<h2 class="anchored" data-anchor-id="prochaine-étape">Prochaine étape</h2>
+<p>Maintenant que j’ai une base de donnée prêt à être utiliser, je vais pouvoir débuter les analyses pour mieux comprendre l’évolution de la recherche en psychologie de la famille au Québec dans les denières années. À suivre…</p>
 
 
 </section>
@@ -650,7 +718,7 @@ J’y partage : - des <strong>résumés d’articles</strong> et des <strong>act
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank">
+    <a class="nav-link" href="../../posts.xml" target="_blank">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>
