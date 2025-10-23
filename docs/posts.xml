@@ -12,7 +12,7 @@
 <generator>quarto-1.7.31</generator>
 <lastBuildDate>Thu, 19 Jun 2025 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>L’intelligence artificielle transforme-t-elle la recherche en sciences sociales ?</title>
+  <title>L’IA dans les sciences sociales : entre enthousiasme et prudence</title>
   <dc:creator>Benoit Plante + ChatGPT</dc:creator>
   <link>https://benoitplante.github.io/posts/2025-06-19-AI-sciences-sociales/</link>
   <description><![CDATA[ 
@@ -21,9 +21,10 @@
 
 
 
-<section id="en-bref" class="level2">
-<h2 class="anchored" data-anchor-id="en-bref">En bref</h2>
-<p>Une étude récente explore comment les chercheurs en sciences sociales perçoivent et utilisent l’intelligence artificielle (IA) et l’apprentissage machine (ML). Basée sur une enquête (N = 284) et des entretiens (N = 15), elle révèle une adoption croissante, mais ambivalente, de ces outils. Les chercheurs utilisent davantage l’IA générative (genAI), mais lui font moins confiance que le ML, qu’ils jugent plus transparent. L’article plaide pour une intégration centrée sur l’humain et propose des recommandations pour les développeurs, chercheurs, enseignants et décideurs. Ce panorama nuancé souligne à la fois l’engouement pour les nouvelles technologies et les tensions qu’elles suscitent dans la pratique scientifique.</p>
+<section id="générée-par-chatgpt" class="level2">
+<h2 class="anchored" data-anchor-id="générée-par-chatgpt"><img src="https://benoitplante.github.io/posts/2025-06-19-AI-sciences-sociales/banner.png" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%" alt="Générée par ChatGPT"></h2>
+<p><strong>En bref</strong><br>
+Une étude récente explore comment les chercheurs en sciences sociales perçoivent et utilisent l’intelligence artificielle (IA) et l’apprentissage machine (ML). Basée sur une enquête (N = 284) et des entretiens (N = 15), elle révèle une adoption croissante, mais ambivalente, de ces outils. Les chercheurs utilisent davantage l’IA générative (genAI), mais lui font moins confiance que le ML, qu’ils jugent plus transparent. L’article plaide pour une intégration centrée sur l’humain et propose des recommandations pour les développeurs, chercheurs, enseignants et décideurs. Ce panorama nuancé souligne à la fois l’engouement pour les nouvelles technologies et les tensions qu’elles suscitent dans la pratique scientifique.</p>
 </section>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">1. Introduction</h2>
